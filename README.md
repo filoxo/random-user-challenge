@@ -16,7 +16,10 @@ I would roughly (very roughly, you have all the flexibility in the world here) e
 - Please fork this repo and build the app out of it.
 - Use any library/framework/etc. you want or none at all.
 - There is no time limit/expectation. Take as much time as you need to make it as awesome as you want it to be.
-
-<sub><sup>Make it something you'd be proud to show your mamma!</sup></sub>
+- Please update the README with build instructions
 
 Good luck! You'll do great!
+
+
+## Build Instructions
+<sub><sup>Your Build Instructions Here</sup></sub>
