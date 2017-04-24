@@ -4,7 +4,10 @@
   "description": "## Requirement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/filoxo/random-user-challenge/issues"
   },
-  "homepage": "https://github.com/filoxo/random-user-challenge#readme"
+  "homepage": "https://github.com/filoxo/random-user-challenge#readme",
+  "devDependencies": {
+    "react-scripts": "^0.9.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }
