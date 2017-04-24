@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import EmptyProfileImage from './EmptyProfile/EmptyProfileImage';
 import EmptyProfileTable from './EmptyProfile/EmptyProfileTable';
+import ProfileImage from './Profile/ProfileImage';
+import ProfileTable from './Profile/ProfileTable';
 import './UserCard.css';
 
 class UserCard extends Component {
@@ -8,13 +10,24 @@ class UserCard extends Component {
         super();
     }
     render() {
-        if(this.props.userData === null) {
-            return (<div className="profileCard">
+        const { userData } = this.props;
+        if(userData === null) {
+            return (<div className="userCard">
                 <EmptyProfileImage />
                 <EmptyProfileTable />
             </div>);
         } else {
-            return (<div className="profileCard">Userdata is { this.props.userData }</div>);
+            const img = userData.picture.large;
+            const name = `${userData.name.first} ${userData.name.last}`;
+            const { dob, email, phone } = userData;
+            const birth = new Date(Date.parse(dob)).toLocaleDateString();
+            console.log(birth)
+            const loc = `${userData.location.city}, ${userData.location.state}`;
+         
+            return (<div className="userCard">
+                <ProfileImage src={img} alt={name}></ProfileImage>
+                <ProfileTable name={name} birth={birth} email={email} phone={phone} location={loc}></ProfileTable>
+            </div>);
         }
     }
 }
