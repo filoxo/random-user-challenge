@@ -1,0 +1,9 @@
+.profileImage {
+    background-color: #BDBDBD;
+    border: 3px solid #616161;
+    border-radius: 100%;
+    display: block;
+    height: 75px;
+    margin: 0 auto;
+    width: 75px;
+}
