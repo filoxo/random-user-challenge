@@ -5,7 +5,12 @@ class App extends Component {
   render() {
     return (
       <main>
-        <h1 className="title">Random User</h1>
+        <div className="text-center">
+          <button className="btn" type="button">Get Random User</button>
+        </div>
+        <div>
+          
+        </div>
       </main>
     );
   }
