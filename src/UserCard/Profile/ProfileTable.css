@@ -1,0 +1,11 @@
+table {
+    color: #616161;
+}
+.label {
+    font-size: .6em;
+    text-transform: uppercase;
+    width: 30%;
+}
+.text-capital {
+    text-transform: capitalize;
+}
