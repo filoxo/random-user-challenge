@@ -22,4 +22,7 @@ Good luck! You'll do great!
 
 
 ## Build Instructions
-<sub><sup>Your Build Instructions Here</sup></sub>
+
+Run this project locally using `yarn start` or  `npm start`
+
+Create a production build using `yarn build` or `npm run build`
