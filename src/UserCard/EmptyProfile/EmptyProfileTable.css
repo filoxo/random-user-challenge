@@ -1,0 +1,11 @@
+.emptyProfileTable {
+    margin-top: 15px;
+}
+.line {
+    margin: 3px 0;
+}
+.text {
+    background-color: #BDBDBD;
+    color: #BDBDBD;
+    user-select: none;
+}

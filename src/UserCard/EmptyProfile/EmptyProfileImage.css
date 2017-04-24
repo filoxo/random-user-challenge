@@ -1,0 +1,13 @@
+.emptyProfileImage {
+    align-items: center;
+    background-color: #BDBDBD;
+    border: 3px solid #616161;
+    border-radius: 100%;
+    color: #F5F5F5;
+    display: flex;
+    font-size: .5em;
+    justify-content: center;
+    height: 75px;
+    margin: 0 auto;
+    width: 75px;
+}
