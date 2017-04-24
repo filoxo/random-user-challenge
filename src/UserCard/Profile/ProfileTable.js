@@ -14,11 +14,11 @@ const ProfileTable = ({name, birth, email, phone, location}) => (
             </tr>
             <tr>
                 <td className="label">Email:</td>
-                <td>{email}</td>
+                <td><a href={`mailto:${email}`}>{email}</a></td>
             </tr>
             <tr>
                 <td className="label">Phone:</td>
-                <td>{phone}</td>
+                <td><a href={`tel:${phone}`}>{phone}</a></td>
             </tr>
             <tr>
                 <td className="label">Location:</td>
