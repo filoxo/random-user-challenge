@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import fetch from 'unfetch';
+import UserCard from './UserCard/UserCard';
 import './App.css';
 
 class App extends Component {
@@ -21,9 +22,7 @@ class App extends Component {
         <div className="text-center">
           <button className="btn" type="button" onClick={this.getRandomUserData}>Get Random User</button>
         </div>
-        <div>
-
-        </div>
+        <UserCard userData={this.state.userData}></UserCard>
       </main>
     );
   }
