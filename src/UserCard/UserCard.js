@@ -21,7 +21,6 @@ class UserCard extends Component {
             const name = `${userData.name.first} ${userData.name.last}`;
             const { dob, email, phone } = userData;
             const birth = new Date(Date.parse(dob)).toLocaleDateString();
-            console.log(birth)
             const loc = `${userData.location.city}, ${userData.location.state}`;
          
             return (<div className="userCard">
