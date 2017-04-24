@@ -23,6 +23,11 @@ Good luck! You'll do great!
 
 ## Build Instructions
 
+Clone the project and install dependencies.
+
+    git clone https://github.com/filoxo/random-user-challenge.git
+    npm install
+
 Run this project locally using `yarn start` or  `npm start`
 
 Create a production build using `yarn build` or `npm run build`
