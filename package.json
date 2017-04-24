@@ -1,0 +1,19 @@
+{
+  "name": "random-user-challenge",
+  "version": "1.0.0",
+  "description": "## Requirement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filoxo/random-user-challenge.git"
+  },
+  "author": "Carlos Filoteo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/filoxo/random-user-challenge/issues"
+  },
+  "homepage": "https://github.com/filoxo/random-user-challenge#readme"
+}
